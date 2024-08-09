@@ -1,0 +1,59 @@
+# Belly Button Biodiversity Dashboard
+
+This repository contains the code for the Belly Button Biodiversity Dashboard, which visualizes data from a study of microbial species in human navels. The dashboard allows users to explore the dataset interactively through bar and bubble charts, as well as view demographic information for each test subject.
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Files](#files)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+The Belly Button Biodiversity Dashboard provides an interactive way to explore the diversity of microbial species found in human navels. The dataset reveals that a small number of microbial species are present in over 70% of people, while the rest are relatively rare.
+
+## Features
+- Dropdown menu to select different test subjects
+- Horizontal bar chart displaying the top 10 OTUs found in the selected individual
+- Bubble chart visualizing the sample values for each OTU
+- Demographic information panel for each test subject
+- Responsive design for use on various devices
+
+## Files
+- `index.html`: The main HTML file for the dashboard
+- `static/js/app.js`: The JavaScript file containing the code to build the charts and handle user interactions
+- `samples.json`: The JSON file containing the dataset (not used directly, as data is fetched from a URL)
+- `README.md`: This README file
+
+## Usage
+To use the dashboard locally, follow these steps:
+1. Clone the repository:
+
+2. Navigate to the project directory:
+    ```bash
+    cd belly-button-challenge
+    ```
+3. Open `index.html` in your web browser to view the dashboard.
+
+
+## Technologies Used
+- HTML
+- CSS (Bootstrap)
+- JavaScript
+- D3.js
+- Plotly.js
+- GitHub Pages
+
+## Contributing
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a new Pull Request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
